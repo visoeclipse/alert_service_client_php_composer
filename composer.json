@@ -1,0 +1,22 @@
+{
+    "name": "oppo_service/alert",
+    "description": "报警服务器",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhanglei",
+            "email": "zhanglei-M@oppo.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.3.0"
+    },
+    "autoload": {
+      "classmap": [
+      ],
+      "psr-4": {
+        "alert\\": "src/"
+      }
+    },
+    "minimum-stability":"dev",
+}
