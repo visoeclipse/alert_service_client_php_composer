@@ -8,7 +8,7 @@
  * @Last Modified time: 2017-10-13 18:44:30
  */
 
-namespace oppo\service\alert;
+namespace oppo\service;
 
 use Thrift\Protocol\TBinaryProtocol;
 use Thrift\Transport\TFramedTransport;
